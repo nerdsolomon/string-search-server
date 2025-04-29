@@ -1,0 +1,19 @@
+#Configuration File For Server
+
+#Username
+name=Nerdsolomon
+
+#File Path
+linuxpath=200k.txt
+
+#PSK
+psk_key=TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES256-GCM-SHA384
+
+#Enable (True) Or Disable (False) PSK Authentication 
+psk_switch=False
+
+#Certificate Path
+cert=cert.pem
+
+#Key Path
+key=key.pem
